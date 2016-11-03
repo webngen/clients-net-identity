@@ -46,9 +46,14 @@ namespace WebNGen.Identity.Client
                 //// Return the URI of the created resource.
                 //return response.Headers.Location;
 
-                return result.Links.Single(x => x.Rel == "tokens").Uri;
+                return result.Links.Single(x => x.Rel == "enterpriseTokens").Uri;
             }
 
+        }
+
+        public /*async*/ Task<string> GetEnterpriseTokensUri()
+        {
+            return Task.FromResult("");
         }
     }
 

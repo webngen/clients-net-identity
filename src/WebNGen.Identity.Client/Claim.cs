@@ -7,11 +7,11 @@
         public Claim(string name, string value)
             : this()
         {
-            this.Name = name;
+            this.Type = name;
             this.Value = value;
 
         }
-        public string Name { get; set; }
+        public string Type { get; set; }
         public string Value { get; set; }
     }
 }
