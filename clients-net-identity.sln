@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNGen.Identity.Client.Tests", "src\WebNGen.Identity.Client.Tests\WebNGen.Identity.Client.Tests.csproj", "{9BB10FBF-9319-49A9-B64E-664F79818678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNGen.Identity.Client", "src\WebNGen.Identity.Client\WebNGen.Identity.Client.csproj", "{FE9F3335-01C9-41BB-AA28-D01579970082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB10FBF-9319-49A9-B64E-664F79818678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB10FBF-9319-49A9-B64E-664F79818678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB10FBF-9319-49A9-B64E-664F79818678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB10FBF-9319-49A9-B64E-664F79818678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9F3335-01C9-41BB-AA28-D01579970082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9F3335-01C9-41BB-AA28-D01579970082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9F3335-01C9-41BB-AA28-D01579970082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9F3335-01C9-41BB-AA28-D01579970082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
